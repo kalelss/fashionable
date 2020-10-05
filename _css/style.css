@@ -361,9 +361,14 @@ article {
 
 .copy {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
     color: #989898;
     font-weight: 600px;
     height: 65px;
+}
+
+.copy p {
+    color: #ff5d30;
 }
